@@ -39,3 +39,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Mon Feb 20 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.6.4.1-1
++ Revision: 777616
+- Import R-RSvgDevice
+- Import R-RSvgDevice
+
