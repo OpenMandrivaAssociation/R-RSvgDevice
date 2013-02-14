@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.6.4.1
+Version:          0.6.4.2
 Release:          1
 Summary:          An R SVG graphics device
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/RSvgDevice_0.6.4.2.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 
 %description
@@ -39,11 +39,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-
-
-%changelog
-* Mon Feb 20 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.6.4.1-1
-+ Revision: 777616
-- Import R-RSvgDevice
-- Import R-RSvgDevice
-
